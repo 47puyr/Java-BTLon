@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUI.ReviewGUI">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="CardLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <hspacer id="b5be2">
+        <constraints>
+          <card name="Card1"/>
+        </constraints>
+      </hspacer>
+      <component id="6f0a3" class="javax.swing.JTextArea" binding="textArea1" default-binding="true">
+        <constraints>
+          <card name="Card2"/>
+        </constraints>
+        <properties/>
+      </component>
+      <grid id="1c2a1" layout-manager="CardLayout" hgap="0" vgap="0">
+        <constraints>
+          <card name="Card3"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="47be6" class="javax.swing.JEditorPane" binding="editorPane1" default-binding="true">
+            <constraints>
+              <card name="Card1"/>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
